@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dig Wars</title>
+  <link rel="icon" href="assets/icon.jpg">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #100c12;
+      overflow: hidden;
+    }
+    body {
+      display: grid;
+      place-items: center;
+    }
+    canvas {
+      background: #100c12;
+      touch-action: none;
+      user-select: none;
+    }
+    noscript {
+      color: #f4efe6;
+      font-family: "Trebuchet MS", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="816" height="710"></canvas>
+  <noscript>Dig Wars needs JavaScript to run.</noscript>
+  <script type="module" src="src/ui/main.js"></script>
+</body>
+</html>

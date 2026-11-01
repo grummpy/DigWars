@@ -1,0 +1,12 @@
+{
+  "name": "digwars",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Four dwarves tunnel to the center treasure and cave in rivals' tunnels.",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node --test tests/ && python3 tests/smoke_server.py"
+  },
+  "license": "MIT"
+}
